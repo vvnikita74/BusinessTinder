@@ -4,12 +4,8 @@ import localFont from 'next/font/local'
 const Font = localFont({
   src: [
     {
-      path: '../public/fonts/Book.woff',
+      path: '../public/fonts/Regular.woff',
       weight: '400',
-    },
-    {
-      path: '../public/fonts/Bold.woff',
-      weight: '700',
     },
     {
       path: '../public/fonts/SemiBold.woff',

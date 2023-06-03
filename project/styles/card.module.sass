@@ -23,24 +23,22 @@
 
             .text
                 .main
-                    font-size: 28px
-                    font-weight: 600
+                    @include Font (28px, 600)
 
                 .middle
                     padding-top: 5px
                     padding-bottom: 15px
                     display: flex
                     align-items: center
-                    font-size: 16px
-                    font-weight: 400
+                    @include Font (16px, 400)
 
                     img
                         padding-right: 5px
                         height: 12px
-                        width: 12px
+                        width: 11px
                 
                 .bottom
-                    font-size: 16px
+                    @include Font (16px, 400)
 
             .aboutButton
                 @include Center ()
