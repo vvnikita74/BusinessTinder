@@ -1,4 +1,4 @@
-import "../styles/global.sass"
+import styles from "../styles/root.module.sass"
 import localFont from 'next/font/local'
 
 const Font = localFont({
@@ -21,7 +21,7 @@ const Font = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={Font.className}>{children}</body>
+      <body className={`${Font.className} ${styles.main}`}>{children}</body>
     </html>
   )
 }
