@@ -20,7 +20,7 @@ export default function Card () {
                     <Image src={aboutIcon} alt="aboutIcon" />
                 </div>
             </div>
-            <ButtonLine />
+            <div className={styles.buttonLine}><ButtonLine /></div>
         </div>
         <div className={styles.Progress}><ProgressBar currentValue={9} targetValue={13}/></div>
         </>
