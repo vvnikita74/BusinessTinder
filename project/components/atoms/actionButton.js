@@ -11,7 +11,7 @@ const ActionButton = ({ type, active }) => {
     useEffect(() => {
         const handleResize = () => {
             setButtonSize({
-                width: window.innerWidth * 0.17,
+                width: window.innerWidth * 0.18,
             });
         };
 
