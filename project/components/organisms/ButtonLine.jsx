@@ -1,5 +1,5 @@
 import styles from "../../styles/buttonLine.module.sass"
-import ActionButton from "../atoms/actionButton"
+import ActionButton from "../atoms/ActionButton"
 import Like from "../../public/Like.svg"
 import X from "../../public/X.svg"
 import Star from "../../public/Star.svg"
