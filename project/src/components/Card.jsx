@@ -2,8 +2,8 @@ import styles from "../styles/card.module.sass"
 import ProgressBar from "./organisms/progress"
 import ButtonLine from "./organisms/buttonLine"
 import Image from "next/image"
-import caseIcon from "../public/caseIcon.svg"
-import aboutIcon from "../public/aboutIcon.svg"
+import caseIcon from "../../public/caseIcon.svg"
+import aboutIcon from "../../public/aboutIcon.svg"
 
 
 export default function Card () {

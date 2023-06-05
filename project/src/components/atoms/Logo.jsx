@@ -1,7 +1,6 @@
 import styles from "../../styles/logo.module.sass"
 import Image from "next/image"
-import logoIcon from "../../public/logoIcon.svg"
-
+import logoIcon from "../../../public/logoIcon.svg"
 export default function Logo () {
     return (
         <div className={styles.logo}>
